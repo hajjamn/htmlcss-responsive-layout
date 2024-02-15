@@ -38,4 +38,7 @@
         flex-wrap: nowrap;
         gap: 0;
     }
+    .card-thumbnail > img {
+        max-width: 100%;
+    }
 }
