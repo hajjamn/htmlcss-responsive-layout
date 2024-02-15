@@ -30,3 +30,11 @@ a, button {
     display: flex;
     flex-wrap: wrap;
 }
+
+/* STYLE */
+
+html {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
