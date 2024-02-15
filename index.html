@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/responsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/4411155b30.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
     <title>Responsive Layout</title>
 </head>
 <body>
@@ -18,7 +18,7 @@
             <div class="row justify-between align-center">
                 <img src="./img/logo.png" alt="Logo" class="logo-img">
                 <div class="nav-container">
-                    <a href=""><i class="nav-bar fa-solid fa-bars" id="nav-bar"></i></a>
+                    <a href=""><i class="nav-bar fa-solid fa-bars"></i></a>
                     <ul class="nav-list">
                         <li class="nav-item"><a href="">Planning</a></li>
                         <li class="nav-item"><a href="">Testimonials</a></li>
@@ -31,43 +31,24 @@
         </div>
     </header>
 
-    <main class="page-main">
+    <main class="page-main padding-20">
         <section class="page-hero">
             <div class="container">
                 <div class="row">
-                    <div class="col-8 flex wrap">
-                        <div class="card-body">
-                            <h2 class="card-title">Get a demo application</h2>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas facilis quisquam repudiandae corrupti ab voluptate necessitatibus voluptates dolores. Ipsa, porro!</p>
-                            <a href=""><span class="card-button"><i class="fa-brands fa-apple"></i> App Store</span></a>
-                        </div>
-                        <div class="card-thumbnail">
-                            <img src="./img/phone.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-4">
-                        <div class="card-body">
-                            <i class="fa-solid fa-file-code card-icon"></i>
-                            <h2 class="card-title">Clean Code</h2>
-                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas deserunt, ullam quibusdam consectetur magnam aut minus facilis! Provident, magni ad.</p>
+                    <div class="col-12 col-md-8 card-container padding-20">
+                        <div class="card-body card-lg flex wrap">
+                            <div class="col-6 card-description">
+                                <h2 class="card-title">Get a demo application</h2>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas facilis quisquam repudiandae corrupti ab voluptate necessitatibus voluptates dolores. Ipsa, porro!</p>
+                                <a href=""><span class="card-button"><i class="fa-brands fa-apple"></i> App Store</span></a>
+                            </div>
+                            <div class="col-6 card-thumbnail align-self-end">
+                                <img src="./img/phone.png" alt="">
+                            </div>
                         </div>
                     </div>
-                    <div class="col-4">
-                        <div class="card-body">
-                            <i class="fa-solid fa-file-code card-icon"></i>
-                            <h2 class="card-title">Clean Code</h2>
-                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas deserunt, ullam quibusdam consectetur magnam aut minus facilis! Provident, magni ad.</p>
-                        </div>
-                    </div>
-                    <div class="col-4">
-                        <div class="card-body">
-                            <i class="fa-solid fa-file-code card-icon"></i>
-                            <h2 class="card-title">Clean Code</h2>
-                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas deserunt, ullam quibusdam consectetur magnam aut minus facilis! Provident, magni ad.</p>
-                        </div>
-                    </div>
-                    <div class="col-4">
-                        <div class="card-body">
+                    <div class="col-12 col-md-4 card-container padding-20">
+                        <div class="card-body text-align-center">
                             <i class="fa-solid fa-file-code card-icon"></i>
                             <h2 class="card-title">Clean Code</h2>
                             <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas deserunt, ullam quibusdam consectetur magnam aut minus facilis! Provident, magni ad.</p>
