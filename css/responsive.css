@@ -10,12 +10,8 @@
     .col-md-8 {
         width: calc(8 * 100% / 12);
     }
-    .card-thumbnail {
-        height: 50%;
-    }
     .card-thumbnail > img {
-        display: block;
-        max-height: 100%;
+        max-width: 50%;
     }
 }
 
