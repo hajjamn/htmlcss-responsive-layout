@@ -10,7 +10,7 @@
     .col-md-8 {
         width: calc(8 * 100% / 12);
     }
-    .card-thumbnail > img {
+    .hero .card-thumbnail > img {
         max-width: 50%;
     }
 }
@@ -27,18 +27,18 @@
     .col-lg-8 {
         width: calc(8 * 100% / 12);
     }
-    .nav-list {
+    .page-header .nav-list {
         display: flex;
         gap: 20px;
     }
-    .nav-bar {
+    .page-header .nav-bar {
         display: none;
     }
-    .card-body.card-big {
+    .hero .card-body.card-big {
         flex-wrap: nowrap;
         gap: 0;
     }
-    .card-thumbnail > img {
+    .hero .card-thumbnail > img {
         max-width: 100%;
     }
 }
