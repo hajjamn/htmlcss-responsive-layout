@@ -20,6 +20,13 @@ a, button {
     color: currentColor;
 }
 
-details > summary {
-    list-style: none;
-  }
+/* LAYOUT */
+
+.container {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
