@@ -13,6 +13,9 @@
     .hero .card-thumbnail > img {
         max-width: 50%;
     }
+    .strategic .strategic-planning > h2 {
+        font-size: 60px;
+    }
 }
 
 /* LARGE */
@@ -27,6 +30,12 @@
     .col-lg-8 {
         width: calc(8 * 100% / 12);
     }
+    .container {
+        max-width: 1200px;
+    }
+    .container-sm {
+        max-width: 800px;
+    }
     .page-header .nav-list {
         display: flex;
         gap: 20px;
@@ -40,5 +49,8 @@
     }
     .hero .card-thumbnail > img {
         max-width: 100%;
+    }
+    .strategic-developement img {
+        max-width: 75%;
     }
 }
