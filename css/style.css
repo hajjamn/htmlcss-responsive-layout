@@ -95,12 +95,6 @@ html {
     line-height: 48px;
 }
 
-.circle-wrapper {
-    border-radius: 50%;
-    overflow: hidden;
-    height: 100%;
-}
-
 /* UTILITIES */
 
 .padding-20 {
@@ -221,6 +215,31 @@ html {
     font-weight: 600;
 }
 
-.testimonial-img {
-    height: 100%;
+/* TESTIMONIALS */
+
+.testimonials-header h2 {
+    color: #9792E4;
+    font-size: 30px;
+}
+
+.testimonials-header .header-text {
+    font-weight: 600;
+}
+
+.testimonials .card {
+    border-radius: 24px;
+    background-color: #9792E4;
+    color: white;
+}
+
+.testimonials-img {
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.testimonials .nat-reynolds {
+    background-image: url(../img/testimonial1.jpg);
 }
