@@ -1,3 +1,16 @@
 /* TABLET */
 
+@media screen and (min-width: 576px) {
+}
+
 /* DEXTOP */
+
+@media screen and (min-width: 992px) {
+    .nav-list {
+        display: flex;
+        gap: 20px;
+    }
+    #nav-bar {
+        display: none;
+    }
+}

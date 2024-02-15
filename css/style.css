@@ -38,3 +38,50 @@ html {
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+.button-white {
+    background-color: white;
+    color: black;
+    border-radius: 24px;
+    padding: 10px;
+}
+
+/* UTILITIES */
+
+.padding-20 {
+    padding: 20px;
+}
+
+.flex {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.text-white {
+    color: white;
+}
+
+/* HEADER */
+
+.page-header {
+    background-color: #0084fd;
+}
+
+.nav-list {
+    display: none;
+}
+
+#nav-bar {
+    font-size: 20px;
+}
