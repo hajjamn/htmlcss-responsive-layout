@@ -1,6 +1,9 @@
 /* MEDIUM */
 
 @media screen and (min-width: 768px) {
+    .col-md-3 {
+        width: calc(3 * 100% / 12);
+    }
     .col-md-4 {
         width: calc(4 * 100% / 12);
     }
@@ -10,11 +13,22 @@
     .col-md-8 {
         width: calc(8 * 100% / 12);
     }
+    .col-md-9 {
+        width: calc(9 * 100% / 12);
+    }
     .hero .card-thumbnail > img {
         max-width: 50%;
     }
     .strategic .strategic-planning > h2 {
         font-size: 60px;
+    }
+    .testimonials .card {
+        flex-direction: row;
+    }
+    .testimonials-img {
+        max-width: 100%;
+        height: auto;
+        aspect-ratio: 1;
     }
 }
 
@@ -61,5 +75,8 @@
     }
     .strategic-developement img {
         max-width: 75%;
+    }
+    .testimonials-quote-container {
+        text-align: left;
     }
 }
