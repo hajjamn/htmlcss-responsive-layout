@@ -88,6 +88,10 @@ html {
     margin-bottom: 20px;
 }
 
+.margin-bottom-40 {
+    margin-bottom: 40px;
+}
+
 .inline-block {
     display: inline-block;
 }
@@ -168,4 +172,12 @@ html {
 
 .strategic {
     background-color: #9792E4;
+}
+
+.strategic .strategic-planning {
+    color: white;
+}
+
+.strategic .strategic-planning > h2 {
+    font-size: 35px;
 }
