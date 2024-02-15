@@ -78,6 +78,14 @@ html {
     padding: 10px 60px;
 }
 
+.strategic-circle-button {
+    background-color: #9792E4;
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+    line-height: 48px;
+}
+
 /* UTILITIES */
 
 .padding-20 {
@@ -180,4 +188,19 @@ html {
 
 .strategic .strategic-planning > h2 {
     font-size: 35px;
+}
+
+.strategic-developement .card-body {
+    background-color: white;
+    border-radius: 65px;
+}
+
+.strategic-developement .card-title {
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.strategic-developement .card-text {
+    font-style: italic;
 }
