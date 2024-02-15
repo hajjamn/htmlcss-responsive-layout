@@ -50,6 +50,9 @@
     .hero .card-thumbnail > img {
         max-width: 100%;
     }
+    .strategic .strategic-planning > h2 {
+        font-size: 26px;
+    }
     .strategic-developement img {
         max-width: 75%;
     }

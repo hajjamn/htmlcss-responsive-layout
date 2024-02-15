@@ -32,6 +32,10 @@ a, button {
     flex-wrap: wrap;
 }
 
+.col-2 {
+    width: calc(2 * 100% / 12);
+}
+
 .col-4 {
     width: calc(4 * 100% / 12);
 }
@@ -42,6 +46,10 @@ a, button {
 
 .col-8 {
     width: calc(8 * 100% / 12);
+}
+
+.col-10 {
+    width: calc(10 * 100% / 12);
 }
 
 .col-12 {
@@ -85,6 +93,12 @@ html {
     height: 48px;
     width: 48px;
     line-height: 48px;
+}
+
+.circle-wrapper {
+    border-radius: 50%;
+    overflow: hidden;
+    height: 100%;
 }
 
 /* UTILITIES */
@@ -205,4 +219,8 @@ html {
 .strategic-developement .card-text {
     font-style: italic;
     font-weight: 600;
+}
+
+.testimonial-img {
+    height: 100%;
 }
