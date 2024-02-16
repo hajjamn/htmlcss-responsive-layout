@@ -148,6 +148,10 @@ html {
     text-align: center;
 }
 
+.underlined {
+    text-decoration: underline;
+}
+
 /* HEADER */
 
 .page-header {
