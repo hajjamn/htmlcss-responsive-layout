@@ -13,7 +13,7 @@
 
     /* HERO */
 
-    .hero .card-thumbnail > img {
+    .hero .card__thumbnail > img {
         margin: 0;
     }
 
@@ -59,21 +59,21 @@
 
     /* HERO  */
 
-
-    .hero .card-body.card-big {
+    .hero .card__body.card__landscape {
         flex-wrap: nowrap;
         gap: 0;
     }
-    .hero .card-thumbnail > img {
+    .hero .card__thumbnail > img {
         margin: 0 auto;
     }
 
     /* STRATEGIC */
 
-
-    .strategic .strategic-planning > h2 {
-        font-size: 26px;
+    .planning__img {
+        margin-bottom: 140px;
     }
+
+
     .strategic-developement img {
         max-width: 75%;
     }

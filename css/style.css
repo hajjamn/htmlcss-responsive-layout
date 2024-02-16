@@ -8,6 +8,7 @@
     --dark: #333333;
     
     --gutter: 24px;
+    --section-padding: 50px 0;
 
 }
 
@@ -67,37 +68,6 @@ html {
   font-style: normal;
 }
 
-.button-white {
-    background-color: white;
-    color: black;
-    border-radius: 24px;
-    padding: 10px;
-}
-
-.card-title {
-    color: var(--dark-blue)
-}
-
-.card-icon {
-    color: var(--dark-blue);
-    font-size: 100px;
-}
-
-.card-button {
-    background-color: var(--dark-blue);
-    color: white;
-    border-radius: 24px;
-    padding: 10px 60px;
-}
-
-.strategic-circle-button {
-    background-color: var(--purple);
-    border-radius: 50%;
-    height: 48px;
-    width: 48px;
-    line-height: 48px;
-}
-
 /* COMPONENTS */
 
 .button {
@@ -111,6 +81,14 @@ html {
 .button--white {
     background-color: white;
     color: black;
+}
+
+.button--purple--circle {
+    background-color: var(--purple);
+    color: black;
+    height: 46px;
+    width: 46px;
+    padding: 0;
 }
 /* UTILITIES */
 
@@ -188,7 +166,7 @@ html {
 /* HERO */
 
 .hero {
-    padding: 50px 0;
+    padding: var(--section-padding);
 }
 
 .hero [class^="col-"] > .card {
@@ -204,7 +182,6 @@ html {
 }
 
 .hero .card__body.card__landscape {
-    gap: 0;
     padding-bottom: 0;
 }
 
@@ -222,7 +199,7 @@ html {
     font-size: 14px;
 }
 
-.hero .card-thumbnail > img {
+.hero .card__thumbnail > img {
     display: block;
     width: 250px;
     margin: 0 auto;
@@ -232,28 +209,30 @@ html {
 
 .strategic {
     background-color: var(--purple);
+    padding: var(--section-padding);
+    line-height: 2em;
 }
 
-.strategic .strategic-planning {
+.strategic .strategic__planning {
     color: white;
 }
 
-.strategic .strategic-planning > h2 {
-    font-size: 35px;
+.strategic .strategic__planning > h2 {
+    font-size: 32px;
 }
 
-.strategic-developement .card-body {
+.strategic-developement .card {
     background-color: white;
     border-radius: 65px;
 }
 
-.strategic-developement .card-title {
+.strategic-developement .card__title {
     color: black;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 700;
 }
 
-.strategic-developement .card-text {
+.strategic-developement .card__text {
     font-style: italic;
     font-weight: 600;
 }
