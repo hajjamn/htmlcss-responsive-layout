@@ -27,13 +27,13 @@
     /* TESTIMONIALS */
 
     
-    .testimonials .card {
+    .testimonials .card__body {
         flex-direction: row;
     }
-    .testimonials-img {
-        max-width: 100%;
-        height: auto;
-        aspect-ratio: 1;
+
+    .testimonials .card__quote__wrapper {
+        flex-grow: 1;
+        padding: 0 20px;
     }
 }
 
@@ -76,11 +76,5 @@
 
     .strategic-developement img {
         max-width: 75%;
-    }
-
-    /* TESTIMONIALS */
-
-    .testimonials-quote-container {
-        text-align: left;
     }
 }
