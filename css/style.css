@@ -51,6 +51,7 @@ a, button {
     display: flex;
     flex-wrap: wrap;
     row-gap: var(--gutter);
+    margin: 0 calc( -0.5 * var(--gutter));
 }
 
 .row > * {
@@ -286,4 +287,19 @@ html {
 .testimonials .quote__name {
     font-size: 20px;
     font-weight: 600;
+}
+
+/* BENEFITS */
+
+.benefits {
+    background-color: var(--purple);
+    padding: var(--section-padding);
+}
+
+.benefits .card__body {
+    background-color: white;
+    border-radius: 16px;
+    gap: 28px;
+    height: 100%;
+    padding: 40px 24px;
 }
