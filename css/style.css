@@ -92,6 +92,12 @@ html {
     width: 46px;
     padding: 0;
 }
+
+.button--purple {
+    background-color: var(--purple);
+    color: white;
+    letter-spacing: 0.5em;
+}
 /* UTILITIES */
 
 .padding-20 {
@@ -296,10 +302,30 @@ html {
     padding: var(--section-padding);
 }
 
+.benefits .section__title {
+    color: white;
+    text-align: center;
+    font-size: 32px;
+}
+
 .benefits .card__body {
     background-color: white;
     border-radius: 16px;
     gap: 28px;
     height: 100%;
     padding: 40px 24px;
+}
+
+.benefits .card__number {
+    color: var(--purple);
+    font-size: 80px;
+}
+
+.benefits .card__title {
+    color: var(--purple);
+    font-size: 22px;
+}
+
+.benefits .card__text {
+    line-height: 2em;
 }
