@@ -13,82 +13,89 @@
 </head>
 <body>
     <!-- PAGE HEADER -->
-    <header class="page-header text-white padding-20">
+    <header class="page-header padding-20">
         <div class="container">
-            <div class="row justify-between align-center">
+            <nav class="row justify-between align-center">
                 <!-- LOGO -->
                 <img src="./img/logo.png" alt="Logo" class="logo-img">
                 <!-- HAMBURGER AND NAVBAR CONTAINER -->
-                <div class="nav-container">
+                <div class="list-container">
                     <!-- CONTAINER -->
                     <a href=""><i class="nav-bar fa-solid fa-bars"></i></a>
                     <!-- NAVBAR -->
                     <ul class="nav-list">
-                        <li class="nav-item"><a href="">Planning</a></li>
-                        <li class="nav-item"><a href="">Testimonials</a></li>
-                        <li class="nav-item"><a href="">Features</a></li>
-                        <li class="nav-item"><a href="">About Us</a></li>
-                        <li class="nav-item"><a href="" class="button-white">Get Started</a></li>
+                        <li class="nav-item"><a href="#">Planning</a></li>
+                        <li class="nav-item"><a href="#">Testimonials</a></li>
+                        <li class="nav-item"><a href="#">Features</a></li>
+                        <li class="nav-item"><a href="#">About Us</a></li>
+                        <li class="nav-item"><a href="#" class="button button--white">Get Started</a></li>
                     </ul>
                 </div>
-            </div>
+            </nav>
         </div>
     </header>
     <!-- PAGE MAIN -->
     <main class="page-main">
         <!-- HERO -->
-        <section class="hero padding-20">
+        <section class="hero">
             <div class="container">
                 <div class="row">
                     <!-- BIG CARD -->
-                    <div class="col-12 col-md-8 card-container padding-20">
-                        <div class="card-body card-big flex wrap">
-                            <!-- BIG CARD TEXT -->
-                            <div class="col-12 col-lg-6 card-description">
-                                <h2 class="card-title margin-bottom-20">Get a demo application</h2>
-                                <p class="card-text margin-bottom-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas facilis quisquam repudiandae corrupti ab voluptate necessitatibus voluptates dolores. Ipsa, porro!</p>
-                                <a href="#" class="card-button inline-block margin-bottom-20">
-                                    <span>
-                                        <i class="fa-brands fa-apple card-button-icon"></i>App Store
-                                    </span>
-                                </a>                                    
-                            </div>
-                            <!-- BIG CARD THUMB -->
-                            <div class="col-12 col-lg-6 card-thumbnail align-self-end">
-                                <img src="./img/phone.png" alt="">
+                    <div class="col-12 col-md-8">
+                        <div class="card">
+                            <div class="card__body card__landscape flex wrap">
+                                <!-- BIG CARD TEXT -->
+                                <div class="col-12 col-lg-6">
+                                    <h2 class="card__title margin-bottom-20">Get a demo application</h2>
+                                    <p class="card__text margin-bottom-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas facilis quisquam repudiandae corrupti ab voluptate necessitatibus voluptates dolores. Ipsa, porro!</p>
+                                    <a href="#" class="inline-block button margin-bottom-20">
+                                        <span>
+                                            <i class="fa-brands fa-apple"></i>   App Store
+                                        </span>
+                                    </a>                                    
+                                </div>
+                                <!-- BIG CARD THUMB -->
+                                <div class="col-12 col-lg-6 card-thumbnail card__thumbnail align-self-end">
+                                    <img src="./img/phone.png" alt="">
+                                </div>
                             </div>
                         </div>
                     </div>
                     <!-- CLEAN CODE -->
-                    <div class="col-12 col-md-4 card-container padding-20">
-                        <div class="card-body text-align-center flex column">
-                            <i class="fa-solid fa-file-code card-icon"></i>
-                            <h2 class="card-title">Clean Code</h2>
-                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas deserunt, ullam quibusdam consectetur magnam aut minus facilis! Provident, magni ad.</p>
+                    <div class="col-12 col-md-4">
+                        <div class="card">
+                            <div class="card__body flex column text-align-center">
+                                <i class="fa-solid fa-file-code card__icon"></i>
+                                <h2 class="card__title">Clean Code</h2>
+                                <p class="card__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas deserunt, ullam quibusdam consectetur magnam aut minus facilis! Provident, magni ad.</p>
+                            </div>
                         </div>
+
                     </div>
                     <!-- WEB DESIGN -->
-                    <div class="col-12 col-md-4 card-container padding-20">
-                        <div class="card-body text-align-center flex column">
-                            <i class="fa-solid fa-compass-drafting card-icon"></i>
-                            <h2 class="card-title">Web Design</h2>
-                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas deserunt, ullam quibusdam consectetur magnam aut minus facilis! Provident, magni ad.</p>
+                    <div class="col-12 col-md-4">
+                        <div class="card">
+                            <div class="card__body flex column text-align-center">
+                                <i class="fa-solid fa-compass-drafting card__icon"></i>
+                                <h2 class="card__title">Web Design</h2>
+                                <p class="card__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas deserunt, ullam quibusdam consectetur magnam aut minus facilis! Provident, magni ad.</p>
+                            </div>
                         </div>
                     </div>
                     <!-- DEVELOPEMENT -->
-                    <div class="col-12 col-md-4 card-container padding-20">
-                        <div class="card-body text-align-center flex column">
-                            <i class="fa-solid fa-laptop-code card-icon"></i>
-                            <h2 class="card-title">Developement</h2>
-                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas deserunt, ullam quibusdam consectetur magnam aut minus facilis! Provident, magni ad.</p>
+                    <div class="col-12 col-md-4">
+                        <div class="card__body text-align-center flex column">
+                            <i class="fa-solid fa-laptop-code card__icon"></i>
+                            <h2 class="card__title">Developement</h2>
+                            <p class="card__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas deserunt, ullam quibusdam consectetur magnam aut minus facilis! Provident, magni ad.</p>
                         </div>
                     </div>
                     <!-- BRANDING -->
-                    <div class="col-12 col-md-4 card-container padding-20">
-                        <div class="card-body text-align-center flex column">
-                            <i class="fa-solid fa-bullhorn card-icon"></i>
-                            <h2 class="card-title">Branding</h2>
-                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas deserunt, ullam quibusdam consectetur magnam aut minus facilis! Provident, magni ad.</p>
+                    <div class="col-12 col-md-4">
+                        <div class="card__body text-align-center flex column">
+                            <i class="fa-solid fa-bullhorn card__icon"></i>
+                            <h2 class="card__title">Branding</h2>
+                            <p class="card__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas deserunt, ullam quibusdam consectetur magnam aut minus facilis! Provident, magni ad.</p>
                         </div>
                     </div>
                 </div>

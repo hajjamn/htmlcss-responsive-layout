@@ -1,5 +1,16 @@
 /* RESET */
 
+:root {
+    --dark-blue: #0084fd;
+    --light-blue: #b5ddff;
+    --purple: #9792E4;
+    --gold: #FDC15F;
+    --dark: #333333;
+    
+    --gutter: 24px;
+
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -23,33 +34,25 @@ a, button {
 /* LAYOUT */
 
 .container {
-    width: 100%;
+    max-width: 1164px;
     margin: 0 auto;
+    padding: 0 12x;
+}
+
+.container-sm {
+    max-width: 904px;
+    margin: 0 auto;
+    padding: 0 calc( var(--gutter) * 0.5 );
 }
 
 .row {
     display: flex;
     flex-wrap: wrap;
+    row-gap: var(--gutter);
 }
 
-.col-2 {
-    width: calc(2 * 100% / 12);
-}
-
-.col-4 {
-    width: calc(4 * 100% / 12);
-}
-
-.col-6 {
-    width: calc(6 * 100% / 12);
-}
-
-.col-8 {
-    width: calc(8 * 100% / 12);
-}
-
-.col-10 {
-    width: calc(10 * 100% / 12);
+.row > * {
+    padding: 0 calc( var(--gutter) * 0.5 );
 }
 
 .col-12 {
@@ -72,29 +75,43 @@ html {
 }
 
 .card-title {
-    color: #0084fd;
+    color: var(--dark-blue)
 }
 
 .card-icon {
-    color: #0084fd;
+    color: var(--dark-blue);
     font-size: 100px;
 }
 
 .card-button {
-    background-color: #0084fd;
+    background-color: var(--dark-blue);
     color: white;
     border-radius: 24px;
     padding: 10px 60px;
 }
 
 .strategic-circle-button {
-    background-color: #9792E4;
+    background-color: var(--purple);
     border-radius: 50%;
     height: 48px;
     width: 48px;
     line-height: 48px;
 }
 
+/* COMPONENTS */
+
+.button {
+    border-radius: 999px;
+    line-height: 46px;
+    background-color: var(--dark-blue);
+    color: white;
+    padding: 0 50px;
+}
+
+.button--white {
+    background-color: white;
+    color: black;
+}
 /* UTILITIES */
 
 .padding-20 {
@@ -107,6 +124,10 @@ html {
 
 .margin-bottom-40 {
     margin-bottom: 40px;
+}
+
+.block {
+    display: block;
 }
 
 .inline-block {
@@ -137,10 +158,6 @@ html {
     align-self: flex-end;
 }
 
-.text-white {
-    color: white;
-}
-
 .text-align-center {
     text-align: center;
 }
@@ -148,11 +165,18 @@ html {
 /* HEADER */
 
 .page-header {
-    background-color: #0084fd;
+    background-color: var(--dark-blue);
+    color: white;
 }
 
 .nav-list {
     display: none;
+}
+
+.nav-list li a {
+    display: block;
+    padding: 0 20px;
+    line-height: 32px;
 }
 
 .nav-bar {
@@ -163,32 +187,51 @@ html {
 
 /* HERO */
 
-.hero .card-body {
-    background-color: #b5ddff;
-    border-radius: 24px;
-    padding: 24px;
-    gap: 40px;
+.hero {
+    padding: 50px 0;
+}
+
+.hero [class^="col-"] > .card {
     height: 100%;
 }
 
-.hero .card-body.card-big {
-    padding-bottom: 0;
+.hero .card__body {
+    background-color: var(--light-blue);
+    border-radius: 16px;
+    gap: 28px;
     height: 100%;
+    padding: 40px 24px;
+}
+
+.hero .card__body.card__landscape {
     gap: 0;
+    padding-bottom: 0;
 }
 
-.hero .card-button-icon {
-    padding: 0 10px;
+.hero .card__icon {
+    font-size: 80px;
+    color: var(--dark-blue);
+}
+
+.hero .card__title {
+    color: var(--dark-blue);
+}
+
+.hero .card__text {
+    line-height: 1.75em;
+    font-size: 14px;
 }
 
 .hero .card-thumbnail > img {
     display: block;
+    width: 250px;
+    margin: 0 auto;
 }
 
 /* STRATEGIC */
 
 .strategic {
-    background-color: #9792E4;
+    background-color: var(--purple);
 }
 
 .strategic .strategic-planning {
@@ -228,7 +271,7 @@ html {
 
 .testimonials .card {
     border-radius: 24px;
-    background-color: #9792E4;
+    background-color: var(--purple);
     color: white;
 }
 

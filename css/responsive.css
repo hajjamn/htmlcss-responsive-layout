@@ -1,27 +1,32 @@
 /* MEDIUM */
 
 @media screen and (min-width: 768px) {
-    .col-md-3 {
-        width: calc(3 * 100% / 12);
-    }
+
+    /* LAYOUT */
+
     .col-md-4 {
         width: calc(4 * 100% / 12);
-    }
-    .col-md-6 {
-        width: calc(6 * 100% / 12);
     }
     .col-md-8 {
         width: calc(8 * 100% / 12);
     }
-    .col-md-9 {
-        width: calc(9 * 100% / 12);
-    }
+
+    /* HERO */
+
     .hero .card-thumbnail > img {
-        max-width: 50%;
+        margin: 0;
     }
+
+    /* STRATEGIC */
+
+
     .strategic .strategic-planning > h2 {
         font-size: 60px;
     }
+
+    /* TESTIMONIALS */
+
+    
     .testimonials .card {
         flex-direction: row;
     }
@@ -35,47 +40,46 @@
 /* LARGE */
 
 @media screen and (min-width: 992px) {
-    .col-lg-2 {
-        width: calc(2 * 100% / 12);
-    }
-    .col-lg-4 {
-        width: calc(4 * 100% / 12);
-    }
+
+    /* LAYOUT */
+
     .col-lg-6 {
         width: calc(6 * 100% / 12);
     }
-    .col-lg-8 {
-        width: calc(8 * 100% / 12);
-    }
-    .col-lg-10 {
-        width: calc(8 * 100% / 12);
-    }
-    .container {
-        max-width: 1200px;
-    }
-    .container-sm {
-        max-width: 800px;
-    }
+
+    /* HEADER */
+
+
     .page-header .nav-list {
         display: flex;
-        gap: 20px;
     }
     .page-header .nav-bar {
         display: none;
     }
+
+    /* HERO  */
+
+
     .hero .card-body.card-big {
         flex-wrap: nowrap;
         gap: 0;
     }
     .hero .card-thumbnail > img {
-        max-width: 100%;
+        margin: 0 auto;
     }
+
+    /* STRATEGIC */
+
+
     .strategic .strategic-planning > h2 {
         font-size: 26px;
     }
     .strategic-developement img {
         max-width: 75%;
     }
+
+    /* TESTIMONIALS */
+
     .testimonials-quote-container {
         text-align: left;
     }
