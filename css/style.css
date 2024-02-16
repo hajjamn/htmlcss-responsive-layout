@@ -98,6 +98,13 @@ html {
     color: white;
     letter-spacing: 0.5em;
 }
+
+.button--white--purple {
+    background-color: white;
+    color: var(--purple);
+    font-weight: 700;
+    letter-spacing: 1px;
+}
 /* UTILITIES */
 
 .padding-20 {
@@ -380,4 +387,27 @@ html {
 .about-us__caption {
     font-size: 24px;
     font-weight: 700;
+}
+
+/* GET STARTED */
+
+.get-started {
+    background-color: var(--purple);
+    color: white;
+    padding: var(--section-padding);
+}
+
+.get-started__strong {
+    color: lightgray;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.get-started__its__free {
+    color: var(--gold);
+    font-size: 60px;
+}
+
+.get-started__copyright {
+    font-size: 14px;
 }
