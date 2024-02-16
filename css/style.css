@@ -41,6 +41,12 @@ a, button {
     padding: 0 12px;
 }
 
+.container-xs {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
 .container-sm {
     max-width: 904px;
     margin: 0 auto;
@@ -410,4 +416,16 @@ html {
 
 .get-started__copyright {
     font-size: 14px;
+}
+
+/* FOOTER */
+
+.page-footer {
+    background-color: var(--dark);
+    color: white;
+    padding: var(--section-padding);
+}
+
+.page-footer span {
+    color: var(--purple);
 }
