@@ -233,21 +233,7 @@ html {
 }
 
 .testimonials-img {
-    background-size: cover;
-    background-position: center;
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
-}
-
-.testimonials .nat-reynolds {
-    background-image: url(../img/testimonial1.jpg);
-}
-
-.testimonials .celia-almeda {
-    background-image: url(../img/testimonial2.jpg);
-}
-
-.testimonials .bob-roberts {
-    background-image: url(../img/testimonial3.jpg);
+    aspect-ratio: 1;
+    object-fit: cover;
 }
